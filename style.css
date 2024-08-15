@@ -128,11 +128,7 @@ nav .nav-link{
 .d-flex-nav{
   padding: 0 5%;
 }
-.navbar-collapse {
-    background-color: #2C3E50;
-    padding: 10px; 
-    border-radius: 5px; 
-}
+
 
 /* .header-scrolled{
     position: absolute;
@@ -339,5 +335,10 @@ nav .nav-link{
     } 
 
 
+    .navbar-collapse {
+        background-color: #2C3E50;
+        padding: 10px; 
+        border-radius: 5px; 
+    }
 
 }
