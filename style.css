@@ -341,4 +341,9 @@ nav .nav-link{
         border-radius: 5px; 
     }
 
+
+    .important-card{
+        flex-direction: column;
+    }
+
 }
