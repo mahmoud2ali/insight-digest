@@ -346,4 +346,13 @@ nav .nav-link{
         flex-direction: column;
     }
 
+    .important-card-P{
+        width: 95%;
+    }
+    
+    
+    .important-card .content{
+        width: 100%;
+    }
+
 }
