@@ -63,7 +63,7 @@ function display_cards(news){
             const card = document.createElement("div");
             if(item.important == "false")
             {
-                card.classList.add("col-4");
+                card.classList.add("col-lg-4");
                 card.innerHTML = `
                 <div onclick="openCard(this)" class="card_" data-bs-toggle="modal" data-bs-target="#myModal">
                     <div class="details hidden">${item.details}</div>
@@ -94,7 +94,7 @@ function display_cards(news){
             const card = document.createElement("div");
             if(item.important == "false")
             {
-                card.classList.add("col-4");
+                card.classList.add("col-lg-4");
                 card.innerHTML = `
                 <div onclick="openCard(this)" class="card_" data-bs-toggle="modal" data-bs-target="#myModal">
                     <div class="details hidden">${item.details}</div>
@@ -124,7 +124,7 @@ function display_cards(news){
             const card = document.createElement("div");
             if(item.important == "false")
             {
-                card.classList.add("col-4");
+                card.classList.add("col-lg-4");
                 card.innerHTML = `
                   <div onclick="openCard(this)" class="card_" data-bs-toggle="modal" data-bs-target="#myModal">
                     <div class="details hidden">${item.details}</div>

@@ -97,6 +97,7 @@ header .taker
     text-decoration: none;
 
 }
+
 nav{
     height: 70px;
     background-color: #1B3A57;
@@ -127,6 +128,12 @@ nav .nav-link{
 .d-flex-nav{
   padding: 0 5%;
 }
+.navbar-collapse {
+    background-color: #2C3E50;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
 /* .header-scrolled{
     position: absolute;
     z-index: -5; 
@@ -308,4 +315,29 @@ nav .nav-link{
 .modal-footer button:hover{
     background-color: #4682B4;
     color: #F5F5F5;
+}
+
+
+@media (max-width: 600px)
+{
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    header .taker
+    {
+        color: #B22234;
+        padding: 0 10px 0 0;
+        font-size: 2em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } 
+
+
+
 }
